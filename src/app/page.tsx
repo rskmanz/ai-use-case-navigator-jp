@@ -159,130 +159,28 @@ export default function HomePage() {
                 <div className="flex items-center space-x-2 bg-white rounded-full px-4 py-2 shadow-sm border border-primary-200">
                   <Sparkles className="w-5 h-5 text-primary-600" />
                   <span className="text-sm font-medium text-primary-700">
-                    実際に使えるAIソリューションを発見
+                    実際に使えるAIソリューション
                   </span>
                 </div>
               </div>
-              
               <h1 className="text-4xl md:text-6xl font-bold text-secondary-900 mb-6">
-                AIユースケース
+                AI ユースケース
                 <span className="text-primary-600"> ナビゲーター</span>
               </h1>
-              
               <p className="text-xl text-secondary-600 mb-8 max-w-3xl mx-auto">
-                あなたのニーズに合った実用的なAIユースケースを見つけましょう。ステップバイステップの実装ガイド、
-                MCPサーバー設定、実例を使って、AIを効果的に活用できます。
+                あなたのニーズに合った実用的なAIユースケースを見つけて、
+                ステップバイステップで実装しましょう。
               </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg" className="group">
                   <BookOpen className="w-5 h-5 mr-2" />
                   ユースケースを探索
                   <Sparkles className="w-4 h-4 ml-2 group-hover:rotate-12 transition-transform" />
                 </Button>
-              </div>
-
-              {/* What MCP Can Do - Simplified */}
-              <div className="text-center mb-12">
-                <h2 className="text-3xl font-bold text-secondary-900 mb-4">
-                  🚀 MCPで実際にできること
-                </h2>
-                <p className="text-xl text-secondary-600 max-w-3xl mx-auto mb-8">
-                  現在多くのユーザーが実践している、MCPを使った日常業務の自動化事例
-                </p>
-              </div>
-
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-12">
-                {/* Email Automation */}
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-secondary-200 hover:shadow-md transition-shadow text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-3 mx-auto">
-                    <span className="text-white text-xl">📧</span>
-                  </div>
-                  <h3 className="text-sm font-bold text-secondary-900 mb-2">メール自動化</h3>
-                  <div className="text-xs text-green-600">1日2時間削減</div>
-                </div>
-
-                {/* Data Sync */}
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-secondary-200 hover:shadow-md transition-shadow text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-3 mx-auto">
-                    <span className="text-white text-xl">📊</span>
-                  </div>
-                  <h3 className="text-sm font-bold text-secondary-900 mb-2">データ同期</h3>
-                  <div className="text-xs text-green-600">毎日30分削減</div>
-                </div>
-
-                {/* Code Review */}
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-secondary-200 hover:shadow-md transition-shadow text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-3 mx-auto">
-                    <span className="text-white text-xl">💻</span>
-                  </div>
-                  <h3 className="text-sm font-bold text-secondary-900 mb-2">コードレビュー</h3>
-                  <div className="text-xs text-green-600">20分/回削減</div>
-                </div>
-
-                {/* Meeting Notes */}
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-secondary-200 hover:shadow-md transition-shadow text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-lg flex items-center justify-center mb-3 mx-auto">
-                    <span className="text-white text-xl">📝</span>
-                  </div>
-                  <h3 className="text-sm font-bold text-secondary-900 mb-2">会議記録</h3>
-                  <div className="text-xs text-green-600">40分削減</div>
-                </div>
-
-                {/* Task Management */}
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-secondary-200 hover:shadow-md transition-shadow text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-red-500 to-red-600 rounded-lg flex items-center justify-center mb-3 mx-auto">
-                    <span className="text-white text-xl">✅</span>
-                  </div>
-                  <h3 className="text-sm font-bold text-secondary-900 mb-2">タスク管理</h3>
-                  <div className="text-xs text-green-600">毎日15分削減</div>
-                </div>
-
-                {/* Customer Support */}
-                <div className="bg-white rounded-xl p-4 shadow-sm border border-secondary-200 hover:shadow-md transition-shadow text-center">
-                  <div className="w-12 h-12 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg flex items-center justify-center mb-3 mx-auto">
-                    <span className="text-white text-xl">🎧</span>
-                  </div>
-                  <h3 className="text-sm font-bold text-secondary-900 mb-2">顧客対応</h3>
-                  <div className="text-xs text-green-600">80%自動化</div>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <div className="bg-white rounded-xl p-8 border border-primary-200 shadow-sm">
-                  <h3 className="text-2xl font-bold text-secondary-900 mb-6">
-                    💡 こんな人におすすめ
-                  </h3>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-                    <div className="flex items-start space-x-3">
-                      <div className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                        <span className="text-white text-sm">👩‍💼</span>
-                      </div>
-                      <div>
-                        <div className="font-semibold text-secondary-900">毎日同じ作業を繰り返している人</div>
-                        <div className="text-secondary-600 text-sm">メール対応、データ入力、レポート作成など</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                        <span className="text-white text-sm">👨‍💻</span>
-                      </div>
-                      <div>
-                        <div className="font-semibold text-secondary-900">複数のツールを使い分けている人</div>
-                        <div className="text-secondary-600 text-sm">Slack、Notion、Google Workspace、GitHubなど</div>
-                      </div>
-                    </div>
-                    <div className="flex items-start space-x-3">
-                      <div className="w-8 h-8 bg-primary-600 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                        <span className="text-white text-sm">⏰</span>
-                      </div>
-                      <div>
-                        <div className="font-semibold text-secondary-900">もっと時間を有効活用したい人</div>
-                        <div className="text-secondary-600 text-sm">単純作業を自動化して、創造的な仕事に集中</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <Button variant="outline" size="lg">
+                  <Zap className="w-5 h-5 mr-2" />
+                  MCPプレイグラウンド
+                </Button>
               </div>
             </div>
           </div>
@@ -405,20 +303,6 @@ export default function HomePage() {
                         <div>
                           <div className="font-semibold text-green-900">GitHub</div>
                           <div className="text-sm text-green-600">コード管理</div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="bg-white rounded-xl p-4 shadow-sm border border-green-200 group hover:shadow-md transition-shadow">
-                      <div className="flex items-center space-x-3">
-                        <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center">
-                          <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M5.042 15.165a2.528 2.528 0 0 1-2.52 2.523A2.528 2.528 0 0 1 0 15.165a2.527 2.527 0 0 1 2.522-2.52h2.52v2.52z"/>
-                          </svg>
-                        </div>
-                        <div>
-                          <div className="font-semibold text-green-900">Slack</div>
-                          <div className="text-sm text-green-600">コミュニケーション</div>
                         </div>
                       </div>
                     </div>
